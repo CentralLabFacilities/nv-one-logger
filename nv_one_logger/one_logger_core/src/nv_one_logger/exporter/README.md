@@ -8,6 +8,12 @@ This folder contains the exporter interface, base classes, built‑in exporters,
 
 ## Quick start
 
+The following `python` code snippet is an example of how to add different exporters into
+`TrainingTelemetryProvidor`.
+
+`TrainingTelemetryProvider` is a singleton provides a global point of entry for the OneLogger library.
+Find more details in `/nv_one_logger/one_logger_core/src/nv_one_logger/api/one_logger_provider.py`.
+
 ```python
 from nv_one_logger.training_telemetry.api.training_telemetry_provider import TrainingTelemetryProvider
 from nv_one_logger.training_telemetry.api.config import TrainingTelemetryConfig
